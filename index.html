@@ -15,36 +15,53 @@
 <body>
 
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <label for="ime">First Name</label><br>
-                <input type="text" name="ime" id="ime" placeholder="Jonathon">
-            </div>
 
+        <div class="row blue">
             <div class="col-sm-12">
-                <label for="prezime">Last Name</label><br>
-                <input type="text" name="prezime" id="prezime" placeholder="Ende">
+                <p>New York State</p>
+                <h4>Request for Contact</h4>
             </div>
+        </div>
 
+        <div class="row grey">
             <div class="col-sm-12">
-                <label for="email">Email Adress</label><br>
-                <input type="text" name="email" id="email" placeholder="hello@bons.me">
-            </div>
 
-            <div class="col-sm-12">
-                <label for="">What is the best time to conctact you</label><br>
-                <input type="checkbox" name="" id="">
-                Monday 3pm <br>
-                <input type="checkbox" name="" id="">
-                Thuesday 3pm <br>
-            </div>
+                <form action="">
+                    <div class="flex">
+                        <div class="flex-item">
+                            <label for="ime">First Name</label><br>
+                            <input type="text" name="ime" id="ime">
+                            <hr>
+                        </div>
 
-            <div class="col-sm-12">
-                <input type="submit" value="Submit">
+                        <div class="flex-item">
+                            <label for="prezime">Last Name</label><br>
+                            <input type="text" name="prezime" id="prezime">
+                            <hr>
+                        </div>
+
+                        <div class="flex-item">
+                            <label for="email">Email Adress</label><br>
+                            <input type="email" name="email" id="email">
+                            <hr>
+                        </div>
+
+                        <div class="flex-item">
+                            <p> What is the best time to conctact you </p>
+                            <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+                            Monday  3pm <br>
+                            <input type="checkbox" name="checkbox" id="checkbox" class="checkbox"> 
+                            Thuesday 3pm <br>
+                        </div>
+                        
+                        <div class="flex-item">
+                            <input type="submit" value="Submit" id="submit">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-
 
     <script src="main.js"></script>
 </body>
